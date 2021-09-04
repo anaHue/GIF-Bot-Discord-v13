@@ -4,6 +4,10 @@
   "description": "A little Discord bot to learn how to do one on my own",
   "main": "bot.js",
   "type": "module",
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
   "scripts": {
     "start": "node bot.js"
   },
