@@ -1,0 +1,16 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "A little Discord bot to learn how to do one on my own",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "anaHue",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  }
+}
