@@ -5,7 +5,7 @@
   "main": "bot.js",
   "type": "module",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node --unhandled-rejections=strict bot.js"
   },
   "author": "anaHue",
   "license": "ISC",
