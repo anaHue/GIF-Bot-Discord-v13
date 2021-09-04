@@ -17,7 +17,7 @@ client.on('channelCreate', (channel) => {
 })
 
 client.on('messageCreate', async (msg) => {
-    if(msg.author.username == "Anatole's Bot") return;
+    if(msg.author.username == "GIF Bot") return;
 
     const originChannel = client.channels.cache.get(msg.channelId);
 
